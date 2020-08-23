@@ -108,7 +108,7 @@ button{
 }
 
 .transRibbon{
-    height: 16rem;
+    height: 22rem;
     position: relative;
     top: -7rem;
     z-index: -1;;
@@ -118,8 +118,14 @@ button{
 
 .redHR{
     position: relative;
-    top: -8rem;
+    top: -15rem;
     border: 1px solid red;
+}
+
+.greyHR{
+    margin-left: 21%;
+    margin-right: 21%;
+    border: 1px solid #282828;
 }
 
 .ColumnCont{
@@ -149,3 +155,23 @@ button{
     margin-left: 45%;
 }
 
+.bioCont{
+    display: flex;
+    margin-left: 21%;
+    margin-right: 21%;
+    position: relative;
+    top: -20rem;
+}
+
+.bioColumn{
+    width: 50%;
+}
+
+#bioH3{
+    color: red;
+}
+
+#bioP{
+    color: #A9A9A9;
+    padding: 0.5rem;
+}
