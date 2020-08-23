@@ -80,8 +80,8 @@ body{
 }
 
 .bodyCont{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 21%;
+    margin-right: 21%;
 }
 
 .headingHome{
@@ -106,3 +106,46 @@ button{
 .buffer{
     height: 8rem;
 }
+
+.transRibbon{
+    height: 16rem;
+    position: relative;
+    top: -7rem;
+    z-index: -1;;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.redHR{
+    position: relative;
+    top: -8rem;
+    border: 1px solid red;
+}
+
+.ColumnCont{
+    display: flex;
+    margin-left: 21%;
+    margin-right: 21%;
+    justify-content: center;
+}
+
+.column{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.imgBanner{
+   color: white;
+   width: 100%;
+   justify-content: center;
+   background-color: black;
+   position: relative;
+   height: 2.6rem;
+   top: -1.5rem;
+}
+
+#imgP{
+    padding-top: 0.6rem;
+    margin-left: 45%;
+}
+
