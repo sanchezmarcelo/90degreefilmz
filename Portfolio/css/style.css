@@ -24,7 +24,7 @@ footer{
 }
 
 .navLogoContainer{
-    background-image: url(../img/jrLogo.png);
+    background-image: url(../img/white\ logo\ transparent.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -60,7 +60,7 @@ footer{
 }
 
 .navLink:hover{
-    color: red;
+    color: gold;
 }
 
 body{
@@ -71,7 +71,29 @@ body{
 .homeBackground{
     position: absolute;
     top: 0;
-    background-image: url(../img/homeBanner.jpg);
+    background-image: url(../img/3.jpg);
+    background-repeat: no-repeat center fixed;
+    background-size: cover;
+    z-index:-1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.PortfolioBackground{
+    position: absolute;
+    top: 0;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat center fixed;
+    background-size: cover;
+    z-index:-1;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.ContactBackground{
+    position: absolute;
+    top: 0;
+    background-image: url(../img/1\ -\ Copy.jpg);
     background-repeat: no-repeat center fixed;
     background-size: cover;
     z-index:-1;
@@ -85,7 +107,7 @@ body{
 }
 
 .headingHome{
-    color: red;
+    color: gold;
 }
 
 .headingText{
@@ -95,7 +117,7 @@ body{
 
 button{
     color: white;
-    background-color: red;
+    background-color: gold;
     border-style: none;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -108,9 +130,9 @@ button{
 }
 
 .transRibbon{
-    height: 22rem;
+    height: 26rem;
     position: relative;
-    top: -7rem;
+    top: -6rem;
     z-index: -1;;
     background-color: black;
     opacity: 0.8;
@@ -119,13 +141,13 @@ button{
 .redHR{
     position: relative;
     top: -15rem;
-    border: 1px solid red;
+    border: 1px solid gold;
 }
 
 .greyHR{
     margin-left: 21%;
     margin-right: 21%;
-    border: 1px solid #282828;
+    border: 1px solid gold;
 }
 
 .ColumnCont{
@@ -160,7 +182,7 @@ button{
     margin-left: 21%;
     margin-right: 21%;
     position: relative;
-    top: -20rem;
+    top: -24rem;
 }
 
 .bioColumn{
@@ -168,10 +190,32 @@ button{
 }
 
 #bioH3{
-    color: red;
+    color: Gold;
 }
 
 #bioP{
     color: #A9A9A9;
     padding: 0.5rem;
+}
+
+.EmptyStuff{
+    height: 50vh;
+}
+
+.col{
+  
+}
+
+.contactContainer{
+    flex-grow: 1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 16px;
+   
+}
+
+.TestCol{
+    flex: 1;
+    align-self: center;
+   
 }
