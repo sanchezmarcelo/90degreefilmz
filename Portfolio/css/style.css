@@ -77,6 +77,22 @@ footer{
     color: gold;
 }
 
+.navListSocial{
+    display: flex;
+    padding-left: 62.5%;
+}
+
+.navSocialItem{
+    align-self: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 0.2rem;
+}
+
+.navSocialItem:hover{
+    cursor: pointer;
+}
+
 .homeBackground{
     position: absolute;
     top: 0;
