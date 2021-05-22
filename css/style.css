@@ -97,7 +97,7 @@ footer{
 .homeBackground{
     position: absolute;
     top: 0;
-    background-image: url(../img/3.jpg);
+    background-image: url(../img/homeBackground.jpg);
     background-repeat: no-repeat center fixed;
     background-size: cover;
     z-index:-1;
@@ -108,7 +108,7 @@ footer{
 .PortfolioBackground{
     position: absolute;
     top: 0;
-    background-image: url(../img/1.jpg);
+    background-image: url(../img/actionBackground.jpg);
     background-repeat: no-repeat center fixed;
     background-size: cover;
     z-index:-1;
@@ -119,7 +119,7 @@ footer{
 .ContactBackground{
     position: absolute;
     top: 0;
-    background-image: url(../img/1\ -\ Copy.jpg);
+    background-image: url(../img/actionBackgroundContact.jpg);
     background-repeat: no-repeat center fixed;
     background-size: cover;
     z-index:-1;
