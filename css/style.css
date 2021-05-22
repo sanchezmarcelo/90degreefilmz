@@ -20,7 +20,7 @@ footer{
     height: 12rem;
     background-color: #101010; /* For browsers that do not support gradients */
     background-image: linear-gradient(#101010, #484848);
-    position: absolute;
+    /* position: absolute; */
     top: 60.5rem;
 }
 
@@ -153,9 +153,11 @@ button{
 }
 
 .transRibbon{
-    height: 26rem;
+    /* height: 26rem;
     position: relative;
-    top: -5.2rem;
+    top: -5.2rem; */
+    padding-top: 1%;
+    padding-bottom: 1%;
     z-index: -1;;
     background-color: black;
     opacity: 0.8;
@@ -168,8 +170,9 @@ button{
 }
 
 .greyHR{
-    margin-left: 21%;
-    margin-right: 21%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
     border: 1px solid gold;
 }
 
@@ -204,8 +207,8 @@ button{
     display: flex;
     margin-left: 21%;
     margin-right: 21%;
-    position: relative;
-    top: -24rem;
+    /* position: relative;
+    top: -24rem; */
 }
 
 .bioColumn{
@@ -248,3 +251,15 @@ button{
     padding-left: 0.5rem;
     padding-top: 0.4rem;
 }
+
+@media only screen and (max-width: 910px) {
+    .ColumnCont {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .transRibbon {
+      opacity: 1;
+    }
+  }
