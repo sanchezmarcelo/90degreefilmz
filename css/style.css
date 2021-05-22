@@ -72,12 +72,15 @@ footer{
 }
 
 .navLink:hover{
-    color: gold;
+    color:#d4a967;
 }
 
 .navListSocial{
     display: flex;
-    padding-left: 62.5%;
+}
+
+.push{
+    margin-left: auto;
 }
 
 .navSocialItem{
@@ -130,7 +133,7 @@ footer{
 }
 
 .headingHome{
-    color: gold;
+    color: #d4a967;
 }
 
 .headingText{
@@ -140,7 +143,7 @@ footer{
 
 button{
     color: white;
-    background-color: gold;
+    background-color: #d4a967;
     border-style: none;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -166,14 +169,14 @@ button{
 .redHR{
     position: relative;
     top: -15rem;
-    border: 1px solid gold;
+    border: 1px solid #d4a967;
 }
 
 .greyHR{
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 1%;
-    border: 1px solid gold;
+    border: 1px solid #d4a967;
 }
 
 .ColumnCont{
@@ -216,7 +219,7 @@ button{
 }
 
 #bioH3{
-    color: Gold;
+    color:#d4a967;
 }
 
 #bioP{
@@ -261,5 +264,12 @@ button{
   @media only screen and (max-width: 1000px) {
     .transRibbon {
       opacity: 1;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .nav {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
