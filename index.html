@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   </head>
   <div class="homeBackground">
 
@@ -34,9 +38,9 @@
         <ul class="push">
         </ul>
         <ul class="navListSocial">
-              <ul class="navSocialItem"><img src="img/social/instagram.png" onclick="redirectToInstagram()" height="100%" width="100%"></ul>
-              <ul class="navSocialItem"><img src="img/social/youtube.png" onclick="redirectToYoutube()" height="100%" width="100%"></ul>
-              <ul class="navSocialItem"><img src="img/social/facebook.png" onclick="redirectToFacebook()" height="100%" width="100%"></ul>
+              <ul class="navSocialItem"><img src="img/social/instagram_white.png" onclick="redirectToInstagram()" height="100%" width="100%"></ul>
+              <ul class="navSocialItem"><img src="img/social/youtube_white.png" onclick="redirectToYoutube()" height="100%" width="100%"></ul>
+              <ul class="navSocialItem"><img src="img/social/facebook_white.png" onclick="redirectToFacebook()" height="100%" width="100%"></ul>
         </ul>
       </div>
       <div class="burger">
@@ -58,6 +62,7 @@
     <div class="buffer">
 
     </div>
+
     <div class="ColumnCont">
       <div class="column">
         <img src="./img/imgOne.PNG">
@@ -106,7 +111,35 @@
     </div>
 
  
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+          infinite: true,
+responsive: [{
 
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        infinite: true
+      }
+
+    }, {
+
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        dots: true
+      }
+
+    }, {
+
+      breakpoint: 300,
+      settings: "unslick" // destroys slick
+
+    }]
+        });
+      });
+    </script>
 </body>
 <div class="wrap">
 
