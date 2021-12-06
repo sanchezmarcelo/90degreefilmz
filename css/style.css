@@ -109,6 +109,7 @@ footer{
 
 .burger{
     display: none;
+    color: white;
 }
 
 .homeBackground{
@@ -305,7 +306,12 @@ button{
     }
 
     .burger{
-        display: block;
+        display: flex;
+    }
+
+    .burgerAlign{
+        padding-right: 0.2rem;
+        align-self: center;
     }
   }
 
