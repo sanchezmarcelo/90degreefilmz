@@ -7,3 +7,12 @@ function redirectToYoutube(){
 function redirectToFacebook(){
     window.location.href = "https://www.facebook.com/jay.harris.1217727";       
 }
+
+function toggleNav(){
+    var x = document.getElementsByClassName("navMobile");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+}

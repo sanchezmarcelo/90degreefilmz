@@ -50,6 +50,8 @@ footer{
     list-style: none;
 }
 
+
+
 .navListContainer{
     display: flex;
     width: 100%;
@@ -60,6 +62,17 @@ footer{
     padding-right: 1rem;
     padding-top: 3rem;
     border-left: 1px solid black;
+}
+
+.navMobile{
+    width: 100%;
+    display: none;
+    font-weight: bold;
+}
+
+.navItemMobile{
+    background-color: black;
+    padding: 0.5rem;
 }
 
 .navLastItem{
@@ -92,6 +105,10 @@ footer{
 
 .navSocialItem:hover{
     cursor: pointer;
+}
+
+.burger{
+    display: none;
 }
 
 .homeBackground{
@@ -264,6 +281,31 @@ button{
     .nav {
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .navListContainer {
+        display: none;
+    }
+    .navLogoContainer{
+        margin: auto;
+    }
+
+    .navMobile{
+        display: inline-block;
+    }
+
+    .navItemMobile{
+        text-align: center;
+    }
+
+    .burger:hover{
+       cursor: pointer;
+    }
+
+    .burger{
+        display: block;
     }
   }
 
